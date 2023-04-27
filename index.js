@@ -11,9 +11,9 @@ app.get('/multiply', (req, res) =>{
         "Access-Control-Allow-Origin": "*",
     });
 
-    
+
     res.status(200).send({
-        'result': num1 * num2
+        'result': (num1 * num2).toString()
     })
 })
 
