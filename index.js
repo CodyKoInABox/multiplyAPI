@@ -1,8 +1,6 @@
-const cors = require('cors');
 const app = require('express')()
 const PORT = 8080
 
-app.use(cors());
 
 app.get('/multiply', (req, res) =>{
     let num1 = parseInt(req.query.num1)
