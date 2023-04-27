@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiply API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 class="title">Multiply API</h1>
+    <h2 class="subtitle">with Express.js</h2>
+    <div class="inputContainer">
+        <div class="numberInputContainer">
+            <h3 class="numberInputTitle">Number 1</h3>
+        <input id="num1" class="numberInput" type="number">
+        </div>
+        <div class="numberInputContainer">
+            <h3 class="numberInputTitle">Number 2</h3>
+        <input id="num2" class="numberInput" type="number">
+        </div>
+    </div>
+    <button class="submit" onclick="callApi()">Call API</button>
+    <div class="outputContainer">
+        <h3 class="outputTitle">API's Response</h3>
+        <p id="output">{result: null}</p>
+    </div>
+</body>
+</html>
