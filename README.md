@@ -1,6 +1,8 @@
 # multiplyAPI
 API with Express.js for school
 
+Check the ["gh-pages"](https://github.com/CodyKoInABox/multiplyAPI/tree/gh-pages) branch for the frontend code!
+
 API URL = https://multiply-api.vercel.app/multiply  
 
 I'll write the documentation later, but to run the API, make sure to pass two query params, num1 and num2, example below:
