@@ -1,5 +1,4 @@
-# multiplyAPI
-API with Express.js for school
+# API with Express.js for school
 
 Check the ["gh-pages"](https://github.com/CodyKoInABox/multiplyAPI/tree/gh-pages) branch for the **frontend** website code!
 
