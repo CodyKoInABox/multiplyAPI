@@ -8,4 +8,10 @@ I'll write the documentation later, but to run the API, make sure to pass two qu
 
 https://multiply-api.vercel.app/multiply?num1=5&num2=7
 
+Available operations: ADD, SUBTRACT, MULTIPLY, DIVIDE
+- https://multiply-api.vercel.app/add  
+- https://multiply-api.vercel.app/subtract  
+- https://multiply-api.vercel.app/multiply  
+- https://multiply-api.vercel.app/divide  
+
 Expected response: {"result":35}
