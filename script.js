@@ -12,3 +12,14 @@ function callApi(){
     .then(data => document.getElementById('output').innerHTML = data.result)
     
 }
+
+const operations = {
+    'add': '+',
+    'subtract': '-',
+    'multiply': '*',
+    'divide': '/'
+}
+
+function optionChange(){   
+    document.getElementById('operation').innerHTML = operations[document.getElementById('options').value]
+}

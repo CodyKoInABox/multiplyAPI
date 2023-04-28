@@ -9,28 +9,39 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+
     <h1 class="title">Multiply API</h1>
     <h2 class="subtitle">with Express.js</h2>
-    <select id="options">
+
+    <select id="options" onchange="optionChange()">
         <option value="add">Add</option>
         <option value="subtract">Subtract</option>
         <option value="multiply">Multiply</option>
         <option value="divide">Divide</option>
     </select>
+
     <div class="inputContainer">
+
         <div class="numberInputContainer">
             <h3 class="numberInputTitle">Number 1</h3>
         <input id="num1" class="numberInput" type="number">
+        </div>
+        <div class="operationContainer">
+            <p id="operation">+</p>
         </div>
         <div class="numberInputContainer">
             <h3 class="numberInputTitle">Number 2</h3>
         <input id="num2" class="numberInput" type="number">
         </div>
+
     </div>
+
     <button class="submit" onclick="callApi()">Call API</button>
+ 
     <div class="outputContainer">
         <h3 class="outputTitle">API's Response</h3>
         <p id="output">{result: null}</p>
     </div>
+
 </body>
 </html>
